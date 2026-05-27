@@ -72,7 +72,7 @@ Nếu cluster hoạt động bình thường sẽ hiển thị trạng thái `Re
 Clone repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/NtQuang-23521287/nt548-app.git
 ```
 
 Di chuyển vào thư mục project:
