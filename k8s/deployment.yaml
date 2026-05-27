@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: nt548-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: nt548-app
+
+  template:
+    metadata:
+      labels:
+        app: nt548-app
+
+    spec:
+      containers:
+      - name: nt548-app
+        image: ntquang2012/nt548-app:latest
+
+        ports:
+        - containerPort: 3000
